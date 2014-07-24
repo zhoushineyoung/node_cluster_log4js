@@ -1,0 +1,46 @@
+{
+    "appenders": [{
+        "type": "clustered",
+        "appenders": [
+            {
+                "type": "console"
+            },
+            {
+                "type": "dateFile",
+                "absolute":true,
+                "filename": "D:/logs/node_open_webapp/master.log",
+                "pattern": "-yyyy-MM-dd",
+                "alwaysIncludePattern": false,
+                "pollInterval": 1,
+                "category": "main"
+            },
+            {
+                "type": "dateFile",
+                "absolute":true,
+                "filename": "D:/logs/node_open_webapp/peon.log",
+                "pattern": "-yyyy-MM-dd",
+                "alwaysIncludePattern": false,
+                "pollInterval": 1,
+                "category": "peon"
+            },
+            {
+                "type": "dateFile",
+                "absolute":true,
+                "filename": "D:/logs/node_open_webapp/access.log",
+                "pattern": "-yyyyMMddhhmmss,SSS,O",
+                "alwaysIncludePattern": false,
+                "pollInterval": 60,
+                "category": "access"
+            },
+            {
+                "type": "logLevelFilter",
+                "level": "ERROR",
+                "appender": {
+                    "type": "file",
+                    "absolute":true,
+                    "filename": "D:/logs/node_open_webapp/error.log"
+                }
+            }
+        ]
+    }]
+}
