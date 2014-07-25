@@ -1,0 +1,17 @@
+{
+    "id": "7fa6202b-f1d7-4113-9bb4-037a7e348045",
+    "seatbid": [{
+        "bid": [{
+            "iurl": "http://ec2-54-86-9-66.compute-1.amazonaws.com:8000/logo.gif",
+            "cid": "afhjk234",
+            "crid": "ajfwep420",
+            "price": 24,
+            "adid": "adfo3btnt",
+            "adomain": "http://www.mopubbidder.com",
+            "adm": "",
+            "impid": "eigu203f",
+            "nurl": "http://ec2-54-86-9-66.compute-1.amazonaws.com:8000/mopub/win/${AUCTION_ID}/${AUCTION_BID_ID}/${AUCTION_IMP_ID}/${AUCTION_SEAT_ID}/${AUCTION_AD_ID}/${AUCTION_PRICE}/"
+        }]
+    }],
+    "cur": "USD"
+}
